@@ -7,9 +7,10 @@ gcan (Growth Curve ANalyzer) helps you to quickly analyze growth curve data.
 It expects your growth curves to be saved in csv (with "*.csv" file ending) or text ("*.txt") format. With the
 following layout:
 
------------------------------------------------
+
 | Time | Sample 1 | Sample 2 | ... | Sample n |
------------------------------------------------
+|------|----------|----------|-----|----------|
+| ...  |    ...   |    ...   | ... |    ...   |
 
 For sample repetitions simply give the columns the same name.
 
