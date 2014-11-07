@@ -112,3 +112,5 @@ ggsave(growth.plot, file="growth.pdf", width=6, height=4)
 
 cat(" - area under curves\n")
 ggsave(area.plot, file="area.pdf", width=6, height=4)
+
+capture.output(print(models), file="results.txt")
