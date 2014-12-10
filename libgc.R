@@ -16,6 +16,12 @@ read.gc = function(name)
 	return(data)
 }
 
+subsample = function(gcs, n_points)
+{
+    idx = seq(1:nrow(gcs), length.out=n_points)
+    
+    return( gcs[idx,] )
+}
 
 get_factors = function(name)
 {

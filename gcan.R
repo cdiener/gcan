@@ -7,9 +7,6 @@ require(MASS)
 require(ggplot2)
 require(reshape2)
 
-OD.min = 0.3
-OD.max = 1.1
-
 args = args[1]
 
 # Functions
